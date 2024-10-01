@@ -75,7 +75,7 @@ public class ThreadMonitor {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        }//fine thread
 
         // Attende che tutti i thread terminino
         for (int i = 0; i < T; i++) {
